@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@drawable/bg1"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="FOOD BANK"
+        android:textColor="@color/white"
+        android:textSize="100px"
+
+        android:layout_marginBottom="800px"
+        />
+
+    <Button
+        android:id="@+id/log"
+        android:layout_margin="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="login"
+        android:backgroundTint="#C5C1C1"
+        android:textColor="@android:color/white"
+        android:textSize="40px"
+        />
+
+
+    <TextView
+        android:id="@+id/call"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="190px"
+        android:text="call us :+216 51747882"
+        android:textColor="@color/white" />
+</LinearLayout>
+
+
+
+
+
+

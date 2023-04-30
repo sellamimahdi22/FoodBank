@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="@drawable/pastbg"
+    tools:context=".pasta_menu">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        >
+        <ImageView
+            android:id="@+id/back"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/baseline_arrow_back_24"
+            android:layout_alignParentLeft="true"/>
+        <TextView
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Order Now"
+            android:textSize="16dp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:gravity="center"
+
+
+            />
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/acount"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/baseline_account_circle_24" />
+    </LinearLayout>
+    </LinearLayout>
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center">
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/title">
+
+                <TextView
+                    android:id="@+id/T_pastamenu"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:textStyle="bold"
+                    android:textAlignment="center"
+                    android:text="Pasta Menu"
+                    android:textColor="@color/white"
+                    android:textSize="40sp" />
+            </RelativeLayout>
+
+                <com.google.android.material.card.MaterialCardView
+                    android:layout_width="330dp"
+                    android:layout_height="160dp"
+
+                    android:id="@+id/card_pasta_menu"
+                    android:layout_centerHorizontal="true"
+                    app:cardCornerRadius="40dp"
+                    app:cardBackgroundColor="#C3E8E4E4">
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="80dp"
+                            android:text="Pasta Italienne  "
+                            android:textColor="@color/black"
+                            android:textSize="20sp"/>
+
+                        <TextView
+                            android:layout_width="250dp"
+                            android:layout_height="110dp"
+                            android:id="@+id/t_info_pizza1"
+                            android:layout_marginStart="80dp"
+                            android:layout_marginLeft="80dp"
+                            android:layout_marginTop="53dp"
+                            android:layout_marginEnd="80dp"
+                            android:text="une combinaison de quatre sortes de fromages "
+                            android:textColor="@color/black"
+                            android:textSize="20sp" />
+
+                        <TextView
+                            android:id="@+id/price_pizza1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="80dp"
+                            android:layout_marginTop="140dp"
+                            android:textStyle="bold"
+                            android:text="20dt"
+                            android:textColor="#CF0C0C"
+                            android:textSize="18sp" />
+                    </RelativeLayout>
+                </com.google.android.material.card.MaterialCardView>
+
+                <com.google.android.material.card.MaterialCardView
+                    android:layout_width="330dp"
+                    android:layout_height="160dp"
+
+
+                    android:layout_centerHorizontal="true"
+                    app:cardCornerRadius="40dp"
+                    app:cardBackgroundColor="#C3E8E4E4">
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="80dp"
+                            android:text="Pasta Italienne  "
+                            android:textColor="@color/black"
+                            android:textSize="20sp"/>
+
+                        <TextView
+                            android:layout_width="250dp"
+                            android:layout_height="110dp"
+                            android:id="@+id/t_info_pasta2"
+                            android:layout_marginStart="80dp"
+                            android:layout_marginLeft="80dp"
+                            android:layout_marginTop="53dp"
+                            android:layout_marginEnd="80dp"
+                            android:text="une combinaison de quatre sortes de fromages "
+                            android:textColor="@color/black"
+                            android:textSize="20sp" />
+
+                        <TextView
+                            android:id="@+id/price_pasta2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="80dp"
+                            android:layout_marginTop="140dp"
+                            android:textStyle="bold"
+                            android:text="20dt"
+                            android:textColor="#CF0C0C"
+                            android:textSize="18sp" />
+                    </RelativeLayout>
+                </com.google.android.material.card.MaterialCardView>
+
+
+
+
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="330dp"
+                android:layout_height="160dp"
+
+
+                android:layout_centerHorizontal="true"
+                app:cardCornerRadius="40dp"
+                app:cardBackgroundColor="#C3E8E4E4">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="80dp"
+                        android:text="Pasta Italienne  "
+                        android:textColor="@color/black"
+                        android:textSize="20sp"/>
+
+                    <TextView
+                        android:layout_width="250dp"
+                        android:layout_height="110dp"
+                        android:id="@+id/t_info_pasta3"
+                        android:layout_marginStart="80dp"
+                        android:layout_marginLeft="80dp"
+                        android:layout_marginTop="53dp"
+                        android:layout_marginEnd="80dp"
+                        android:text="une combinaison de quatre sortes de fromages "
+                        android:textColor="@color/black"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/price_pasta3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="80dp"
+                        android:layout_marginTop="140dp"
+                        android:textStyle="bold"
+                        android:text="20dt"
+                        android:textColor="#CF0C0C"
+                        android:textSize="18sp" />
+
+
+            </com.google.android.material.card.MaterialCardView>
+
+        </LinearLayout>
+
+
+</LinearLayout>
+</LinearLayout>
